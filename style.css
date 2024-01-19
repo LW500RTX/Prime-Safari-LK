@@ -978,19 +978,18 @@ p {
     }
 
 
-
-      li 
-          {
-              margin-top: 0;
-              text-align: left;
-              color: rgb(255, 255, 255);
-              font-size: 18px;
+li 
+    {
+     margin-top: 0;
+     text-align: left;
+     color: rgb(255, 255, 255);
+     font-size: 18px;
               
-          }
+      }
           
       
       
-          ul {
+        ul {
               list-style-type: decimal;
               text-align: center;
               list-style-type: disc;
