@@ -976,3 +976,49 @@ p {
         grid-column: span 2;
 
     }
+
+
+
+li 
+    {
+        margin-top: 0;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        
+    }
+    
+
+
+    ul {
+        list-style-type: decimal;
+        text-align: center;
+        list-style-type: disc;
+        margin-block-end: 0em;
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+        padding-inline-start: 40px;
+      }
+
+
+    .grid-titel ol {
+        list-style-type: disc;
+        text-align: center;
+        list-style-type: disc;
+        margin-block-end: 0em;
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+        padding-inline-start: 40px;
+        align-items: center;
+        margin-left: 40%;
+
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+        ul {
+          padding-inline-start: 20px; 
+        }
+      }
+
